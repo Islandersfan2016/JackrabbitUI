@@ -76,7 +76,7 @@ const NavBar = () => {
               {account.slice(0, 20)}..
             </button>
           ) : (
-            <button onClick={() => setOpenModel(true)}>Connect</button>
+            <button onClick={() => setOpenModel(true)}>Connect Wallet</button>
           )}
 
           {openModel && (
